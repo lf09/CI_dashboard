@@ -1,0 +1,481 @@
+CRITICAL - 2021-08-22 00:11:42 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:13:12 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:16:42 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:17:52 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:20:07 --> Call to a member function save() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:21:04 --> Call to a member function save() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:21:21 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:22:18 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:23:43 --> Argument 2 passed to CodeIgniter\Model::set() must be of the type string or null, array given, called in /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php on line 25
+#0 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(25): CodeIgniter\Model->set()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 00:24:12 --> Call to a member function save() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:25:02 --> Call to a member function insert() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:25:18 --> Call to a member function insert() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:29:35 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 /opt/lampp/htdocs/CI/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/CI/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI/app/Controllers/Dashboardloginpage.php(10): view()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardloginpage->index()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-22 00:36:09 --> Invalid file: http://localhost:8080/Dashboardloginpage.php
+#0 /opt/lampp/htdocs/CI/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(31): view()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-08-22 00:36:55 --> Invalid file: http://localhost:8080/Dashboardcadastro.php
+#0 /opt/lampp/htdocs/CI/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(31): view()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-08-22 00:43:54 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 /opt/lampp/htdocs/CI/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 00:43:58 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ';'
+#0 /opt/lampp/htdocs/CI/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 00:48:44 --> Argument 1 passed to index_page() must be an instance of Config\App or null, string given, called in /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php on line 31
+#0 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(31): index_page()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 00:51:59 --> Call to a member function encrypt() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:55:27 --> Call to a member function encrypt() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:56:18 --> Call to a member function encrypt() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 00:57:25 --> Can't use method return value in write context
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-08-22 00:59:04 --> Use of undefined constant openssl_encrypt - assumed 'openssl_encrypt' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 01:01:08 --> Use of undefined constant crypt - assumed 'crypt' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 01:01:32 --> Use of undefined constant encrypt - assumed 'encrypt' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 01:02:24 --> Use of undefined constant crypt - assumed 'crypt' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 01:02:58 --> Argument 1 passed to index_page() must be an instance of Config\App or null, string given, called in /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php on line 32
+#0 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(32): index_page()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 01:03:13 --> Argument 1 passed to index_page() must be an instance of Config\App or null, string given, called in /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php on line 32
+#0 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(32): index_page()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 01:26:15 --> Call to undefined function App\Controllers\string()
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 01:29:33 --> Call to undefined function App\Controllers\string()
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 01:29:36 --> Call to undefined function App\Controllers\string()
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 01:29:38 --> Call to undefined function App\Controllers\string()
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 03:28:43 --> Invalid file: Dashboardloginpage.php
+#0 /opt/lampp/htdocs/CI/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(32): view()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-08-22 03:36:15 --> Call to undefined method App\Models\DashboardModel::getHash
+#0 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(27): CodeIgniter\Model->__call()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 03:44:07 --> Call to undefined method App\Controllers\Dashboardcadastro::generateHash()
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 03:45:08 --> Call to undefined function App\Controllers\generateHash()
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 03:45:36 --> Invalid file: Dashboardloginpage.php
+#0 /opt/lampp/htdocs/CI/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(34): view()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-08-22 03:45:45 --> Invalid file: Dashboardloginpage.php
+#0 /opt/lampp/htdocs/CI/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(34): view()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-08-22 03:48:42 --> Call to undefined method App\Controllers\Dashboardcadastro::set()
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 03:59:16 --> Object of class App\Models\DashboardModel could not be converted to string
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 04:00:09 --> Argument 2 passed to CodeIgniter\Model::insert() must be of the type bool, object given, called in /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php on line 32
+#0 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(32): CodeIgniter\Model->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 04:02:33 --> md5() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(31): md5()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2021-08-22 04:04:57 --> Invalid file: Dashboardloginpage.php
+#0 /opt/lampp/htdocs/CI/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(35): view()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-08-22 04:05:19 --> Invalid file: Dashboardloginpage.php
+#0 /opt/lampp/htdocs/CI/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(35): view()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-08-22 04:05:45 --> Invalid file: Dashboardloginpage.php
+#0 /opt/lampp/htdocs/CI/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /opt/lampp/htdocs/CI/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(35): view()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#8 {main}
+CRITICAL - 2021-08-22 04:08:31 --> md5() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(31): md5()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2021-08-22 04:09:11 --> hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(31): hash()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2021-08-22 04:16:07 --> Use of undefined constant md5 - assumed 'md5' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 04:18:58 --> hash() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(31): hash()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2021-08-22 04:20:45 --> hash_hmac() expects at least 3 parameters, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(31): hash_hmac()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2021-08-22 04:21:02 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(31): hash_hmac()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2021-08-22 12:02:22 --> password_hash() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(30): password_hash()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2021-08-22 12:06:59 --> Cannot use object of type App\Models\DashboardModel as array
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 12:08:20 --> Call to undefined function App\Controllers\string()
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 12:09:41 --> Cannot use object of type App\Models\DashboardModel as array
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 12:10:18 --> Cannot use object of type App\Models\DashboardModel as array
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 12:10:43 --> Use of undefined constant localDashboardModel - assumed 'localDashboardModel' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#6 {main}
+CRITICAL - 2021-08-22 12:12:34 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 12:13:57 --> Call to a member function get() on null
+#0 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#1 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#5 {main}
+CRITICAL - 2021-08-22 12:31:08 --> password_hash(): Unknown password hashing algorithm: 1234
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(27): password_hash()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#7 {main}
+CRITICAL - 2021-08-22 12:32:13 --> password_hash(): Unknown password hashing algorithm: 1234
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /opt/lampp/htdocs/CI/app/Controllers/Dashboardcadastro.php(27): password_hash()
+#2 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboardcadastro->insert()
+#3 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#7 {main}

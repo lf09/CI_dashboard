@@ -1,0 +1,462 @@
+CRITICAL - 2021-08-19 16:39:09 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/spark(46): require('/home/lf/Docume...')
+#4 {main}
+CRITICAL - 2021-08-19 16:39:25 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/spark(46): require('/home/lf/Docume...')
+#4 {main}
+CRITICAL - 2021-08-19 16:39:29 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/spark(46): require('/home/lf/Docume...')
+#4 {main}
+CRITICAL - 2021-08-19 16:47:44 --> Argument 2 passed to view() must be of the type array, bool given, called in /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboard.php on line 10
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboard.php(10): view()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#6 {main}
+CRITICAL - 2021-08-19 16:50:55 --> Argument 2 passed to view() must be of the type array, bool given, called in /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboard.php on line 10
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboard.php(10): view()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#6 {main}
+ERROR - 2021-08-19 16:55:06 --> Error connecting to the database: Unknown database 'dashboard'
+CRITICAL - 2021-08-19 16:55:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dashboard'
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:19:22 --> Error connecting to the database: Unknown database 'dashboard'
+CRITICAL - 2021-08-19 17:19:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dashboard'
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:22:23 --> Error connecting to the database: Unknown database 'dashboard'
+CRITICAL - 2021-08-19 17:22:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dashboard'
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:24:41 --> Error connecting to the database: Unknown database 'dashboard'
+CRITICAL - 2021-08-19 17:24:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dashboard'
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:24:43 --> Error connecting to the database: Unknown database 'dashboard'
+CRITICAL - 2021-08-19 17:24:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dashboard'
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:24:44 --> Error connecting to the database: Unknown database 'dashboard'
+CRITICAL - 2021-08-19 17:24:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dashboard'
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:25:41 --> Error connecting to the database: Unknown database 'dashboard'
+CRITICAL - 2021-08-19 17:25:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dashboard'
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:25:42 --> Error connecting to the database: Unknown database 'dashboard'
+CRITICAL - 2021-08-19 17:25:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dashboard'
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:30:17 --> Error connecting to the database: Unknown database 'dashboard'
+CRITICAL - 2021-08-19 17:30:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'dashboard'
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:51:21 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 17:51:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:53:46 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 17:53:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:53:47 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 17:53:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:53:47 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 17:53:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:55:06 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 17:55:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:55:14 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 17:55:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:55:21 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 17:55:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 17:55:22 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 17:55:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+CRITICAL - 2021-08-19 18:46:35 --> Argument 2 passed to view() must be of the type array, bool given, called in /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboard.php on line 10
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboard.php(10): view()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboard->index()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#6 {main}
+ERROR - 2021-08-19 18:47:14 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 18:47:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/lf/Documentos/ProjetoTrabalho/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/lf/Documentos/ProjetoTrabalho/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/lf/Documentos/ProjetoTrabalho/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /home/lf/Documentos/ProjetoTrabalho/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/lf/Documentos/ProjetoTrabalho/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/lf/Documentos/ProjetoTrabalho/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/lf/Documentos/ProjetoTrabalho/CI/system/Commands/Server/rewrite.php(45): require_once('/home/lf/Docume...')
+#10 {main}
+ERROR - 2021-08-19 19:07:11 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 19:07:11 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /opt/lampp/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /opt/lampp/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /opt/lampp/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /opt/lampp/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/CI/p...')
+#10 {main}
+ERROR - 2021-08-19 19:07:19 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 19:07:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /opt/lampp/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /opt/lampp/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /opt/lampp/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /opt/lampp/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/CI/p...')
+#10 {main}
+ERROR - 2021-08-19 19:13:22 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 19:13:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /opt/lampp/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /opt/lampp/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /opt/lampp/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /opt/lampp/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/CI/p...')
+#10 {main}
+ERROR - 2021-08-19 19:13:23 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 19:13:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /opt/lampp/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /opt/lampp/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /opt/lampp/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /opt/lampp/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/CI/p...')
+#10 {main}
+ERROR - 2021-08-19 19:13:23 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 19:13:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /opt/lampp/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /opt/lampp/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /opt/lampp/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /opt/lampp/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/CI/p...')
+#10 {main}
+ERROR - 2021-08-19 19:13:23 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 19:13:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /opt/lampp/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /opt/lampp/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /opt/lampp/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /opt/lampp/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/CI/p...')
+#10 {main}
+ERROR - 2021-08-19 19:13:23 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 19:13:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /opt/lampp/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /opt/lampp/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /opt/lampp/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /opt/lampp/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/CI/p...')
+#10 {main}
+ERROR - 2021-08-19 19:15:39 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 19:15:39 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /opt/lampp/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /opt/lampp/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /opt/lampp/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /opt/lampp/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/CI/p...')
+#10 {main}
+ERROR - 2021-08-19 19:15:40 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 19:15:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /opt/lampp/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /opt/lampp/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /opt/lampp/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /opt/lampp/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/CI/p...')
+#10 {main}
+ERROR - 2021-08-19 19:15:43 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 19:15:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /opt/lampp/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /opt/lampp/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /opt/lampp/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /opt/lampp/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/CI/p...')
+#10 {main}
+ERROR - 2021-08-19 19:17:33 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 19:17:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /opt/lampp/htdocs/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /opt/lampp/htdocs/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/htdocs/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /opt/lampp/htdocs/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#10 {main}
+ERROR - 2021-08-19 19:17:34 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-08-19 19:17:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /opt/lampp/htdocs/CI/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /opt/lampp/htdocs/CI/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /opt/lampp/htdocs/CI/system/Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 /opt/lampp/htdocs/CI/system/BaseModel.php(603): CodeIgniter\Model->doFindAll()
+#4 /opt/lampp/htdocs/CI/app/Controllers/Dashboarduserlist.php(19): CodeIgniter\BaseModel->findAll()
+#5 /opt/lampp/htdocs/CI/system/CodeIgniter.php(928): App\Controllers\Dashboarduserlist->index()
+#6 /opt/lampp/htdocs/CI/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /opt/lampp/htdocs/CI/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /opt/lampp/htdocs/CI/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /opt/lampp/htdocs/CI/system/Commands/Server/rewrite.php(45): require_once('/opt/lampp/htdo...')
+#10 {main}
